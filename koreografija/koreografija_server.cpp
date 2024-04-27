@@ -160,7 +160,7 @@ void main_problem_interaction() {
   }
 
   flog << "broj upita: " << query_count << endl;
-  foutput << "broj upita: " << query_count << endl;
+ // foutput << "broj upita: " << query_count << endl;
 
   int query_min = n * 4 * 10;
   int query_max = n * n / 2;
