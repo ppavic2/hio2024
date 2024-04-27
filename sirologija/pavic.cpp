@@ -22,10 +22,10 @@ int main() {
 	for(int i = n - 1;i >= 0;i--)
 		for(int j = m - 1 - (i == n - 1);j >= 0;j--)
 			a[i][j] |= (i + 1 == n || a[i + 1][j]) && (j + 1 == m || a[i][j + 1]);
-	if(a[0][0]) { printf("0\n"); return 0; }
+	if(a[0][0]) { cout << "0\n"; return 0; }
 	for(int i = 1;i < n;i++)
 		for(int j = 1;j < m;j++)
 			if(a[i][j]) sol += (!a[i - 1][j]) && (!a[i][j - 1]) && (!a[i - 1][j - 1]);
-	printf("%d\n", sol + 1);
+	cout << sol + 1 << endl;
 	return 0;
 }
