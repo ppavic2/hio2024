@@ -93,10 +93,10 @@ void main_problem_interaction() {
   //test_condition(bool(finput >> n), CANNOT_READ_N);
   //test_condition(bool(finput >> q), CANNOT_READ_Q);
 
-  vector <int> permutacija(n);
-  vector < vector <int> > inv_cnt(n, vector<int>(n));
+  vector <int> permutacija(n + 1);
+  vector < vector <int> > inv_cnt(n + 1, vector<int>(n + 1));
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     test_condition(bool(finput >> permutacija[i]), CANNOT_READ_PERMUTATION);
   }
 
@@ -142,20 +142,20 @@ void main_problem_interaction() {
   // Read and check the output
   flog << WAITING_FOR_SOLUTION << endl;
 
-  vector <int> ans(n);
+  vector <int> ans(n + 1);
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     test_condition(bool(cin >> ans[i]), WA_INCORRECT);
   }
 
   // Check the answers
   flog << "Contestant answer: ";
-  for (int i = 0; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     flog << ans[i] << " ";
   }
   flog << "\n";
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 1; i <= n; i++) {
     test_condition(ans[i] == permutacija[i], WA_INCORRECT);
   }
 
