@@ -37,10 +37,16 @@ void tr(int col)
 	for (int i=0;i<n;++i) if (!bio[i]) dfs1(i);
 	for (int i=0;i<n;++i) bio[i]=0;
 	reverse(ord.begin(),ord.end());
+	vector<vector<int>> concc;
 	for (auto x: ord) if (!bio[x])
 	{
 		curcc.clear();
 		dfs2(x);
+		concc.push_back(curcc);
+	}
+	reverse(concc.begin(),concc.end());
+	for (auto curcc: concc)
+	{
 		bitset<N> nap;
 		for (auto y: curcc)
 		{
@@ -49,6 +55,8 @@ void tr(int col)
 		}
 		for (auto y: curcc) cur[y]=nap;
 	}
+	//cout<<col<<endl;
+	//for (int i=0;i<n;++i,cout<<endl) for (int j=0;j<n;++j) cout<<cur[i][j];
 }
 
 int main(int argc, char* argv[]) {
