@@ -74,7 +74,7 @@ int main()
 {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
-	cin>>n;
+	n=1000;
 	if (DEB)
 	{
 		for (int i=0;i<n;++i) stp[i]=i;
