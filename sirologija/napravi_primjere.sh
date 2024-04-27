@@ -56,6 +56,13 @@ do
 	
 	./gen $n 0 4 > ./test/"$zadatak".in."$n"y
 	./gen $n 0 5 > ./test/"$zadatak".in."$n"z
+	
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"aa
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"ab
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"ac
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"ad
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"ae
+	./gen $n 20 0 > ./test/"$zadatak".in."$n"af
 done
 
 for f in test/*.in*;
