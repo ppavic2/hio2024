@@ -60,11 +60,11 @@ int main(int argc, char* argv[]) {
     {
     	quitf(_wa,"jury has solution but contestant does not");
 	}
-	if (cont>best)
+	if (cont==-1) quitf(_ok,"impossible");
+	if (best!=-1 && cont>best)
 	{
 		quitf(_wa,"jury has better solution than contestant");
 	}
-	if (cont==-1) quitf(_ok,"impossible");
 	for (int i=0;i<n;++i) for (int j=0;j<n;++j)
 	{
 		ou[i][j]=ouf.readInt(0,cont);
@@ -94,6 +94,10 @@ int main(int argc, char* argv[]) {
 	if (cont<best)
 	{
 		quitf(_fail,"contestant has better answer");
+	}
+	if (best==-1 && cont!=-1)
+	{
+		quitf(_fail,"contestant has answer but jury does not");
 	}
 	quitf(_ok,"correct");
 }
