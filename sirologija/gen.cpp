@@ -136,6 +136,10 @@ int main(int argc, char** argv){
 	} else {
 		assert(false);
 	}
+	if(rub) {
+		for(int i = 0;i < n;i++) ans[i][0] = '.', ans[i][m - 1] = '.';
+		for(int i = 0;i < m;i++) ans[0][i] = '.', ans[n - 1][i] = '.';
+	}
 	printf("%d %d\n", n, m);
 	for(int i = 0;i < n;i++) {
 		for(int j = 0;j < m;j++) {
