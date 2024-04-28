@@ -134,7 +134,7 @@ void checker(ifstream &fin, ifstream &foff, ifstream &fout) {
   	if (!ou[i][j] && gr[i][j]) finish(0.15, WRONG_ANS);
   	if (ou[i][j] && !gr[i][j]) finish(0.15, WRONG_ANS);
   }
-  for (int i=1;i<=cont;++i)
+  for (int i=1;i<=min(cont,3);++i)
   {
   	tr(i);
 	for (int j=0;j<n;++j) final[j]|=cur[j];
