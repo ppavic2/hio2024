@@ -6,13 +6,13 @@
   memorylimit=1024 MiB,
 ]{Sirologija}
 
-You are an ant, but not just any ant – you're an ant obsessed with sirologija!
+You are an ant, but not just any ant – you're an ant obsessed with cheeseology!
 
 You've discovered a new slice of cheese in the kitchen and want to send as many of your minions as possible to explore it. Imagine the cheese as a table with $N$ rows and $M$ columns, where the rows are labeled from $1$ to $N$ from top to bottom, and the columns are labeled from $1$ to $M$ from left to right. Some fields contain holes, while others contain cheese. We will denote the field in the $r$-th row and $s$-th column as $(r, s)$. The top-left and bottom-right fields will definitely contain cheese.
 
 Let's denote the number of minions as $K$. Your minions will start their exploration in the top-left field and finish in the bottom-right field. They can only move downwards and to the right. Additionally, their paths must not "cross", meaning we can assign labels from $1$ to $K$ to them in such a way that there is no field from which a minion with a lower label exited to the right, and a minion with a higher label exited downwards.
 
-Moreover, you would like these paths to be "different" in some sense, meaning that for every two minions, there exists a field $(r, s)$ containing a hole, such that one of them was at some point (not necessarily simultaneously) in column $s$ and in a row labeled lower than $r$, while the other was at some point in column $s$ and in a row labeled higher than $r$. Informally, every pair of minions approached some hole from different sides.
+Moreover, you would like these paths to be "different" in some sense, meaning that for every two minions, there exists a field $(r, s)$ containing a hole, such that one of them was at some point in column $s$ and in a row labeled lower than $r$, while the other was at some point (not necessarily simultaneously) in column $s$ and in a row labeled higher than $r$. Informally, every pair of minions approached some hole from different sides.
 
 Output the maximum value of $K$ such that there exists a selection of minion paths satisfying the given conditions.
 
@@ -23,13 +23,13 @@ Some examples of paths that do not satisfy the conditions:
     \begin{subfigure}{0.49\linewidth}
       \centering
       \includegraphics[width=\linewidth]{pic/sijeku_se.png}
-      \caption{Poor choice of paths - they intersect}
+      \caption{Invalid choice of paths - they intersect}
 
     \end{subfigure}
     \begin{subfigure}{0.49\linewidth}
       \centering
       \includegraphics[width=\linewidth]{pic/ista_strana.png}
-      \caption{Poor choice of paths - they approach a hole from the same side}
+      \caption{Invalid choice of paths - they approach a hole from the same side}
 
     \end{subfigure}
 
