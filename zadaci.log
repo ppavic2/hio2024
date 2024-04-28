@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 02:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 03:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,7 +588,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<pic/HIO_logo.pdf, id=12, 221.76752pt x 221.76752pt>
+<pic/HIO_logo.pdf, id=20, 221.76752pt x 221.76752pt>
 File: pic/HIO_logo.pdf Graphic file (type pdf)
 <use pic/HIO_logo.pdf>
 Package pdftex.def Info: pic/HIO_logo.pdf  used on input line 13.
@@ -619,44 +619,96 @@ Underfull \hbox (badness 10000) in alignment at lines 13--13
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic/HIO_logo.pdf>]
-(./sirologija/sirologija.tex
-<pic/sijeku_se.png, id=80, 74.679pt x 74.679pt>
-File: pic/sijeku_se.png Graphic file (type png)
-<use pic/sijeku_se.png>
-Package pdftex.def Info: pic/sijeku_se.png  used on input line 25.
-(pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
-<pic/ista_strana.png, id=81, 74.679pt x 74.679pt>
-File: pic/ista_strana.png Graphic file (type png)
-<use pic/ista_strana.png>
-Package pdftex.def Info: pic/ista_strana.png  used on input line 31.
-(pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-4.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(./cern/cern.tex (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+File: "cern//test/cern.dummy.in.1"  (verbatim)
+File: "cern//test/cern.dummy.out.1"  (verbatim)
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/HSIN_logo.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<pic/HSIN_logo.pdf, id=82, 249.91609pt x 256.89125pt>
+<pic/HSIN_logo.pdf, id=88, 249.91609pt x 256.89125pt>
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 60.
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 70.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60   \begin{tabular}
-                      {ccl} [1
+l.70 \textbf{Pojašnjenje probnog primjera:}
+                                             [1
 
 
- <./pic/HSIN_logo.pdf> <./pic/sijeku_se.png> <./pic/ista_strana.png>]
+ <./pic/HSIN_logo.pdf>])
+(./koreografija/koreografija.tex
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [2]
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 81.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [3
+
+]) (./ministarstvo/ministarstvo.tex
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+
+[4]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+4.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+File: "ministarstvo//test/ministarstvo.dummy.in.1"  (verbatim)
+File: "ministarstvo//test/ministarstvo.dummy.out.1"  (verbatim)
+File: "ministarstvo//test/ministarstvo.dummy.in.2"  (verbatim)
+File: "ministarstvo//test/ministarstvo.dummy.out.2"  (verbatim)
+File: "ministarstvo//test/ministarstvo.dummy.in.3"  (verbatim)
+File: "ministarstvo//test/ministarstvo.dummy.out.3"  (verbatim)
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 62.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+<pic/skcia3.png, id=130, 240.9pt x 240.9pt>
+File: pic/skcia3.png Graphic file (type png)
+<use pic/skcia3.png>
+Package pdftex.def Info: pic/skcia3.png  used on input line 76.
+(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
+) (./sirologija/sirologija.tex
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [6 <./pic/skcia3.png>]
+<pic/sijeku_se.png, id=140, 74.679pt x 74.679pt>
+File: pic/sijeku_se.png Graphic file (type png)
+<use pic/sijeku_se.png>
+Package pdftex.def Info: pic/sijeku_se.png  used on input line 25.
+(pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
+<pic/ista_strana.png, id=141, 74.679pt x 74.679pt>
+File: pic/ista_strana.png Graphic file (type png)
+<use pic/ista_strana.png>
+Package pdftex.def Info: pic/ista_strana.png  used on input line 31.
+(pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 60.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [7
+
+ <./pic/sijeku_se.png> <./pic/ista_strana.png>]
 Overfull \hbox (63.14354pt too wide) in paragraph at lines 60--69
 [][] 
  []
@@ -672,83 +724,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<pic/sir.png, id=100, 74.679pt x 74.679pt>
+<pic/sir.png, id=149, 74.679pt x 74.679pt>
 File: pic/sir.png Graphic file (type png)
 <use pic/sir.png>
 Package pdftex.def Info: pic/sir.png  used on input line 85.
 (pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
-<pic/sir2.png, id=101, 74.679pt x 74.679pt>
+<pic/sir2.png, id=150, 74.679pt x 74.679pt>
 File: pic/sir2.png Graphic file (type png)
 <use pic/sir2.png>
 Package pdftex.def Info: pic/sir2.png  used on input line 91.
 (pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
-) (./ministarstvo/ministarstvo.tex
-File: pic/HSIN_logo.pdf Graphic file (type pdf)
-<use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
-(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [2 <./pic/sir.png> <./pic/sir2.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-4.
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-File: "ministarstvo//test/ministarstvo.dummy.in.1"  (verbatim)
-File: "ministarstvo//test/ministarstvo.dummy.out.1"  (verbatim)
-File: "ministarstvo//test/ministarstvo.dummy.in.2"  (verbatim)
-File: "ministarstvo//test/ministarstvo.dummy.out.2"  (verbatim)
-File: "ministarstvo//test/ministarstvo.dummy.in.3"  (verbatim)
-File: "ministarstvo//test/ministarstvo.dummy.out.3"  (verbatim)
-File: pic/HSIN_logo.pdf Graphic file (type pdf)
-<use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 60.
-(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-<pic/skcia3.png, id=116, 240.9pt x 240.9pt>
-File: pic/skcia3.png Graphic file (type png)
-<use pic/skcia3.png>
-Package pdftex.def Info: pic/skcia3.png  used on input line 65.
-(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 ) 
 AED: lastpage setting LastPage
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 18.
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 20.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
-[4 <./pic/skcia3.png>] (./zadaci.aux)
+[8 <./pic/sir.png> <./pic/sir2.png>] (./zadaci.aux)
 Package rerunfilecheck Info: File `zadaci.out' has not changed.
-(rerunfilecheck)             Checksum: ADAD8F536AEC3A4583A0C5301A917F9D;198.
+(rerunfilecheck)             Checksum: C531963F4D66E9BC3C76E0B35B16A2BD;366.
  ) 
 Here is how much of TeX's memory you used:
- 15598 strings out of 478287
- 264453 string characters out of 5849289
+ 15676 strings out of 478287
+ 265614 string characters out of 5849289
  611631 words of memory out of 5000000
- 33414 multiletter control sequences out of 15000+600000
- 523880 words of font info for 104 fonts, out of 8000000 for 9000
+ 33435 multiletter control sequences out of 15000+600000
+ 530024 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,77p,1003b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/
-share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
-m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmtt10.pfb>
-Output written on zadaci.pdf (5 pages, 307860 bytes).
+ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
+10.pfb>
+Output written on zadaci.pdf (9 pages, 371795 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 9 named destinations out of 1000 (max. 500000)
- 35380 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 37444 words of extra memory for PDF output out of 42996 (max. 10000000)
 
