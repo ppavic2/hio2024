@@ -1,0 +1,68 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Problem statement
+\begin{statement}[
+  problempoints=100,
+  timelimit=4 seconds,
+  memorylimit=512 MiB,
+]{CERN}
+
+CERN is an international institution focused on nuclear research and particle physics.
+The particle accelerator system at CERN is used to conduct experiments involving the collision of particles at high speeds.
+
+We consider $N$ particles arranged in a sequence. Each particle is defined by its \textit{type} $v_i$, represented by a natural number between 1 and $N$.
+
+In the latest research, it is necessary to conduct $Q$ experiments. In the $i$-th experiment, we observe all particles from the $l_i$-th to the $r_i$-th in the sequence $(l_i < r_i)$. Among the observed particles, we can choose any two particles of different types and collide them in the accelerator, causing both particles to be destroyed. We repeat this collision process as long as there are two particles of different types among the observed particles. The experiment ends either when all observed particles are destroyed or when there are some particles of the same type remaining. Of course, depending on the order in which we collide the particles, it is possible to end up with various types of particles at the end.
+
+Since particle collision is not cheap, you have decided to conduct experiments only in theory. Now, for each experiment, you are interested in how many types of particles exist such that it is possible to end the experiment with some remaining particles of that type.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Input
+\subsection*{Input}
+
+The first line contains two natural numbers $N$ and $Q$, the number of particles and the number of experiments, respectively.
+
+The next line contains a sequence of $N$ numbers $v_1, \dots, v_N$, representing the types of particles.
+
+In each of the following $Q$ lines, there is a pair of two natural numbers $l_i$ and $r_i$ ($1 \leq l_i < r_i \leq N$), representing the interval of observed particles in the $i$-th experiment.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Output
+\subsection*{Output}
+
+For each of the $Q$ experiments, print in a separate line the requested number of types of particles with which it is possible to end the experiment.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Scoring
+\subsection*{Scoring}
+
+In all subtasks, $2 \leq N \leq 500,000$ and $1 \leq Q \leq 500,000$.
+
+{\renewcommand{\arraystretch}{1.4}
+  \setlength{\tabcolsep}{6pt}
+  \begin{tabular}{ccl}
+   Subtask & Score & Constraints \\ \midrule
+    1 & 13 & $v_i \leq 10$ for each $i = 1, \dots, N$. \\
+    2 & 19 & There are at most two particles of each type. \\
+    3 & 17 & $N, Q \leq 2000$ \\
+    4 & 19 & $N, Q \leq 100,000$ \\
+    5 & 32 & There are no additional constraints. \\
+\end{tabular}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Examples
+\subsection*{Example}
+\begin{tabularx}{\textwidth}{X}
+\sampleinputs{test/cern.dummy.in.1}{test/cern.dummy.out.1}
+\end{tabularx}
+
+\textbf{Explanation of the Sample:}
+
+In the first experiment, we can collide particles of types 3 and 4, leaving two particles of type 2 remaining. There is no way to end up with any other type of particles.
+
+In the second experiment, it is possible to end up with some remaining particles of each type.
+
+In the fourth and fifth experiments, regardless of the choice of collisions, some particles of type 4 will remain at the end.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% We're done
+\end{statement}
