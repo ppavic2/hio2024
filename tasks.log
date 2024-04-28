@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,11 +772,11 @@ Package rerunfilecheck Info: File `tasks.out' has not changed.
 (rerunfilecheck)             Checksum: C531963F4D66E9BC3C76E0B35B16A2BD;366.
  ) 
 Here is how much of TeX's memory you used:
- 15731 strings out of 478287
- 266393 string characters out of 5849289
+ 15729 strings out of 478287
+ 266369 string characters out of 5849289
  611594 words of memory out of 5000000
  33463 multiletter control sequences out of 15000+600000
- 547033 words of font info for 142 fonts, out of 8000000 for 9000
+ 546903 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,77p,1002b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -792,7 +792,7 @@ texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
 7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on tasks.pdf (9 pages, 386142 bytes).
+Output written on tasks.pdf (9 pages, 386181 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  181 compressed objects within 2 object streams
