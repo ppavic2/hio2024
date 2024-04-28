@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 03:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 04:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,9 +587,24 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: Command \dj unavailable in encoding .
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...om biti potrebno posjedovanje točno određ
+                                                  ene dozvole.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1349,13 +1364,13 @@ Overfull \hbox (9.12497pt too wide) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (16.91786pt too wide) in paragraph at lines 25--26
-\OML/cmm/m/it/10 A[]$
+Overfull \hbox (14.70374pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 a[]$
  []
 
 
-Overfull \hbox (27.47337pt too wide) in paragraph at lines 25--26
-\OML/cmm/m/it/10 A[] \/cmr/m/n/10 =
+Overfull \hbox (25.25925pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 a[] \/cmr/m/n/10 =
  []
 
 
@@ -1374,8 +1389,8 @@ Overfull \hbox (4.69049pt too wide) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (26.5891pt too wide) in paragraph at lines 25--26
-\OML/cmm/m/it/10 A[] \/cmr/m/n/10 =
+Overfull \hbox (24.37497pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 a[] \/cmr/m/n/10 =
  []
 
 
@@ -1399,13 +1414,13 @@ Overfull \hbox (4.44444pt too wide) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (16.91786pt too wide) in paragraph at lines 25--26
-\OML/cmm/m/it/10 A[]$
+Overfull \hbox (14.70374pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 a[]$
  []
 
 
-Overfull \hbox (16.4873pt too wide) in paragraph at lines 25--26
-\OML/cmm/m/it/10 A[]$
+Overfull \hbox (14.27318pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 a[]$
  []
 
 
@@ -1553,6 +1568,15 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -1769,13 +1793,13 @@ Overfull \hbox (9.12497pt too wide) in paragraph at lines 37--38
  []
 
 
-Overfull \hbox (17.00293pt too wide) in paragraph at lines 37--38
-\OML/cmm/m/it/10 B[]$
+Overfull \hbox (13.7095pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 b[]$
  []
 
 
-Overfull \hbox (27.47337pt too wide) in paragraph at lines 37--38
-\OML/cmm/m/it/10 A[] \/cmr/m/n/10 =
+Overfull \hbox (25.25925pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 a[] \/cmr/m/n/10 =
  []
 
 
@@ -1784,8 +1808,8 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 37--38
  []
 
 
-Overfull \hbox (27.55844pt too wide) in paragraph at lines 37--38
-\OML/cmm/m/it/10 B[] \/cmr/m/n/10 =
+Overfull \hbox (24.26501pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 b[] \/cmr/m/n/10 =
  []
 
 
@@ -1799,8 +1823,8 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 37--38
  []
 
 
-Overfull \hbox (27.55844pt too wide) in paragraph at lines 37--38
-\OML/cmm/m/it/10 B[] \OMS/cmsy/m/n/10 ^^T
+Overfull \hbox (24.26501pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 b[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
@@ -2990,5 +3014,5 @@ Here is how much of TeX's memory you used:
  18337 multiletter control sequences out of 15000+600000
  469735 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,7n,32p,608b,159s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,7n,32p,612b,159s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

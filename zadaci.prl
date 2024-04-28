@@ -1,4 +1,4 @@
- \problemline {CERN} {} {1.5 sekunda} {512 MiB} {100} 
- \problemline {Koreografija} {} {1 sekunda} {512 MiB} {100} 
+ \problemline {CERN} {} {4 sekunde} {512 MiB} {100} 
+ \problemline {Koreografija} {} {5 sekundi} {1024 MiB} {100} 
  \problemline {Ministarstvo} {} {1 sekunda} {1024 MiB} {100} 
  \problemline {Sirologija} {} {1 sekunda} {1024 MiB} {100} 
