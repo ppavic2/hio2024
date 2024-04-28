@@ -12,6 +12,7 @@ def check(lines):
     assert len(lines) == n + 1, "krivi broj linija"
     nl.append(str(n) + E)
     c = []
+    assert 2 <= n <= 1000
     print(n)
 
     for i in range(n):
