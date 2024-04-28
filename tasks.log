@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 13:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,7 +588,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<pic/HIO_logo.pdf, id=12, 221.76752pt x 221.76752pt>
+<pic/HIO_logo.pdf, id=20, 221.76752pt x 221.76752pt>
 File: pic/HIO_logo.pdf Graphic file (type pdf)
 <use pic/HIO_logo.pdf>
 Package pdftex.def Info: pic/HIO_logo.pdf  used on input line 14.
@@ -652,7 +652,7 @@ File: "cern//test/cern.dummy.out.1"  (verbatim)
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pic/HSIN_logo.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<pic/HSIN_logo.pdf, id=81, 249.91609pt x 256.89125pt>
+<pic/HSIN_logo.pdf, id=89, 249.91609pt x 256.89125pt>
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
 Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 58.
@@ -666,14 +666,27 @@ l.58 \textbf{Explanation of the Sample:}
 
 
  <./pic/HSIN_logo.pdf>])
+(./koreografija/koreografija_en.tex
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [2]
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 81.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [3
+
+])
 (./ministarstvo/ministarstvo_en.tex
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 11.
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [2]
+ [4]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-8.
+4.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -686,32 +699,32 @@ File: "ministarstvo//test/ministarstvo.dummy.in.3"  (verbatim)
 File: "ministarstvo//test/ministarstvo.dummy.out.3"  (verbatim)
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 66.
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 62.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [3
+ [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<pic/skcia3.png, id=112, 240.9pt x 240.9pt>
+<pic/skcia3.png, id=131, 240.9pt x 240.9pt>
 File: pic/skcia3.png Graphic file (type png)
 <use pic/skcia3.png>
-Package pdftex.def Info: pic/skcia3.png  used on input line 80.
+Package pdftex.def Info: pic/skcia3.png  used on input line 76.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 ) (./sirologija/sirologija_en.tex
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
 Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 7.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [4 <./pic/skcia3.png>]
-<pic/sijeku_se.png, id=119, 74.679pt x 74.679pt>
+ [6 <./pic/skcia3.png>]
+<pic/sijeku_se.png, id=141, 74.679pt x 74.679pt>
 File: pic/sijeku_se.png Graphic file (type png)
 <use pic/sijeku_se.png>
 Package pdftex.def Info: pic/sijeku_se.png  used on input line 25.
 (pdftex.def)             Requested size: 223.07211pt x 223.09175pt.
-<pic/ista_strana.png, id=120, 74.679pt x 74.679pt>
+<pic/ista_strana.png, id=142, 74.679pt x 74.679pt>
 File: pic/ista_strana.png Graphic file (type png)
 <use pic/ista_strana.png>
 Package pdftex.def Info: pic/ista_strana.png  used on input line 31.
@@ -720,7 +733,7 @@ File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
 Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 54.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
- [5
+ [7
 
  <./pic/sijeku_se.png> <./pic/ista_strana.png>]
 Overfull \hbox (10.70047pt too wide) in paragraph at lines 60--69
@@ -738,12 +751,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<pic/sir.png, id=129, 74.679pt x 74.679pt>
+<pic/sir.png, id=150, 74.679pt x 74.679pt>
 File: pic/sir.png Graphic file (type png)
 <use pic/sir.png>
 Package pdftex.def Info: pic/sir.png  used on input line 85.
 (pdftex.def)             Requested size: 182.09486pt x 182.11162pt.
-<pic/sir2.png, id=130, 74.679pt x 74.679pt>
+<pic/sir2.png, id=151, 74.679pt x 74.679pt>
 File: pic/sir2.png Graphic file (type png)
 <use pic/sir2.png>
 Package pdftex.def Info: pic/sir2.png  used on input line 91.
@@ -752,27 +765,18 @@ Package pdftex.def Info: pic/sir2.png  used on input line 91.
 AED: lastpage setting LastPage
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 18.
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 19.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
-[6 <./pic/sir.png> <./pic/sir2.png>] (./tasks.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `tasks.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tasks.out':
-(rerunfilecheck)             Before: 45DC1C4D98E04AB2033220EE445E8925;158
-(rerunfilecheck)             After:  6A454030444FFA5198581A392B89CD09;262.
+[8 <./pic/sir.png> <./pic/sir2.png>] (./tasks.aux)
+Package rerunfilecheck Info: File `tasks.out' has not changed.
+(rerunfilecheck)             Checksum: C531963F4D66E9BC3C76E0B35B16A2BD;366.
  ) 
 Here is how much of TeX's memory you used:
- 15702 strings out of 478287
- 265956 string characters out of 5849289
+ 15731 strings out of 478287
+ 266393 string characters out of 5849289
  611594 words of memory out of 5000000
- 33455 multiletter control sequences out of 15000+600000
- 546347 words of font info for 136 fonts, out of 8000000 for 9000
+ 33463 multiletter control sequences out of 15000+600000
+ 547033 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,77p,1002b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -786,12 +790,12 @@ ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr
 c/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
-10.pfb>
-Output written on tasks.pdf (7 pages, 360743 bytes).
+f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on tasks.pdf (9 pages, 386142 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
- 47668 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 47684 words of extra memory for PDF output out of 51595 (max. 10000000)
 
