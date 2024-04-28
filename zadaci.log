@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 04:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,11 +745,11 @@ Package rerunfilecheck Info: File `zadaci.out' has not changed.
 (rerunfilecheck)             Checksum: C531963F4D66E9BC3C76E0B35B16A2BD;366.
  ) 
 Here is how much of TeX's memory you used:
- 15676 strings out of 478287
- 265614 string characters out of 5849289
+ 15674 strings out of 478287
+ 265592 string characters out of 5849289
  611631 words of memory out of 5000000
  33435 multiletter control sequences out of 15000+600000
- 530024 words of font info for 122 fonts, out of 8000000 for 9000
+ 529941 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,77p,1003b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -765,7 +765,7 @@ texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on zadaci.pdf (9 pages, 371409 bytes).
+Output written on zadaci.pdf (9 pages, 371489 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams

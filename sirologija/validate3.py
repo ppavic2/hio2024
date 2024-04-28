@@ -23,8 +23,10 @@ def check(lines):
         if i == 0 or i == n - 1:
             if '#' in s: rub = 1
         if '#' in s: red.add(i)
+        if i == 0: assert s[0] == '.'
+        if i == n - 1: assert s[m - 1] == '.'        
         nl.append("{}{}".format(s, E))
-        
+    
     assert lines == nl, "Krivi format (%s vs %s)" % (lines, nl)
     assert lines[-1][-1] == "\n", "Zadnji red ne zavrsava sa \\n"
     return {'n' : n, 'm' : m, 'r' : rub, 'row' : len(red)}
