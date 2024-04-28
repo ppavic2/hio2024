@@ -6,9 +6,9 @@
   memorylimit=1024 MiB,
 ]{Ministarstvo}
 
-Pero se nakon uspješne karijere u stranci koju nećemo imenovati, zaposlio u Ministarstvu turizma. Pero nadgleda mrežu od $N$ gradova, označenih brojevima od $1$ do $N$, gdje između svaka dva grada postoji točno jedna jednomsjerna cesta. Kako bi povećao prihode, odlučio je uvesti dozvole za prometovanje. Pero bi najradije uveo posebnu dozvolu za svaku cestu, no ti bi alarmiralo njegove nadređene. Stoga, uvest će $K$ različitih dozvola, označenih od $1$ do $K$, te će za prolazak svakom cestom biti potrebno posjedovanje točno jedne dozvole. 
+Pero se nakon uspješne karijere u stranci koju nećemo imenovati, zaposlio u Ministarstvu turizma. Pero nadgleda mrežu od $N$ gradova, označenih brojevima od $1$ do $N$, gdje između svaka dva grada postoji točno jedna jednosmjerna cesta. Kako bi povećao prihode, odlučio je uvesti dozvole za prometovanje. Pero bi najradije uveo posebnu dozvolu za svaku cestu, no ti bi alarmiralo njegove nadređene. Stoga, uvest će $K$ različitih dozvola, označenih od $1$ do $K$, te će za prolazak svakom cestom biti potrebno posjedovanje točno jedne dozvole. 
 
-Kako bi ipak osigurao pozamašne prihode, Pero će se zadovljiti sa sljedećim svojstvom.
+Kako bi ipak osigurao pozamašne prihode, Pero će se zadovoljiti sa sljedećim svojstvom.
 
 \begin{itemize}
 \item Za svaki grad $v$ postoji neki grad $u$, tako da iz grada $v$ nije moguće doći do grada $u$ posjedovanjem samo jedne dozvole.
@@ -22,7 +22,7 @@ Pero vas moli da pomognete, te da odredite najmanji $K$ takav da postoji pridru�
 
 U prvom je retku prirodan broj $N$.
 
-U sljedećih $i$-tom od sljedećih $N$ redaka nalazi se $N$ brojeva $A_{i, j}$ gdje je $A_{i, j} = 1$ ako postoji cesta iz grada $i$ u grad $j$. Primijetite da je $A_{i, i} = 0$ te da je za $i \neq j$ točno jedan od brojeva $A_{i, j}$ te $A_{j, i}$ različit od nula. 
+U $i$-tom od sljedećih $N$ redaka nalazi se $N$ brojeva $A_{i, j}$ gdje je $A_{i, j} = 1$ ako postoji cesta iz grada $i$ u grad $j$. Primijetite da je $A_{i, i} = 0$ te da je za $i \neq j$ točno jedan od brojeva $A_{i, j}$ te $A_{j, i}$ različit od nula. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Output
@@ -38,7 +38,7 @@ U $i$-tom retku ispišite $N$ brojeva $B_{i, j}$ gdje ako je $A_{i, j} = 0$ tada
 % Scoring
 \subsection*{Bodovanje}
 
-U svim podzadacima vrijedi $1 \leq N, 1000$. U svakom podzadatku, $20\%$ bodova donosi samo odlučivanje je li takvo pridruživanje postoji ili ne. Za te bodove potrebno je ispisati nekakvo pridruživanje, ali ono ne mora zadovoljavati Perino traženo svojstvo. 
+U svim podzadacima vrijedi $1 \leq N \leq 1000$. U svakom podzadatku, $20\%$ bodova donosi samo odlučivanje je li takvo pridruživanje postoji ili ne. Za te bodove potrebno je ispisati nekakvo pridruživanje, ali ono ne mora zadovoljavati Perino traženo svojstvo. 
 
 {\renewcommand{\arraystretch}{1.4}
   \setlength{\tabcolsep}{6pt}
@@ -57,9 +57,12 @@ U svim podzadacima vrijedi $1 \leq N, 1000$. U svakom podzadatku, $20\%$ bodova 
 \sampleinputs{test/ministarstvo.dummy.in.3}{test/ministarstvo.dummy.out.3}
 \end{tabularx}
 
-\textbf{Pojašnjenje probnih primjera:}\\
+\textbf{Pojašnjenje trećeg probnog primjera:}\\
 
+Ceste za koje je potrebna prva dozvola su označene crvenom bojom, druga dozvola plavom i treća dozvola zelenom. Jasno je da je svojstvo zadovoljeno.
 
+\centering
+\includegraphics[scale=1]{pic/skcia3.png}
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % We're done

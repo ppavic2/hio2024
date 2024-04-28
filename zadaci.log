@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  28 APR 2024 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,39 +695,43 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: "ministarstvo//test/ministarstvo.dummy.in.1"  (verbatim)
-
-No file test/ministarstvo.dummy.out.1.
+File: "ministarstvo//test/ministarstvo.dummy.out.1"  (verbatim)
 File: "ministarstvo//test/ministarstvo.dummy.in.2"  (verbatim)
-No file test/ministarstvo.dummy.out.2.
+File: "ministarstvo//test/ministarstvo.dummy.out.2"  (verbatim)
 File: "ministarstvo//test/ministarstvo.dummy.in.3"  (verbatim)
-No file test/ministarstvo.dummy.out.3.
+File: "ministarstvo//test/ministarstvo.dummy.out.3"  (verbatim)
+File: pic/HSIN_logo.pdf Graphic file (type pdf)
+<use pic/HSIN_logo.pdf>
+Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 60.
+(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
+ [3
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-File: pic/HSIN_logo.pdf Graphic file (type pdf)
-<use pic/HSIN_logo.pdf>
-Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 61.
-(pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
-[3
-
-]) 
+<pic/skcia3.png, id=116, 240.9pt x 240.9pt>
+File: pic/skcia3.png Graphic file (type png)
+<use pic/skcia3.png>
+Package pdftex.def Info: pic/skcia3.png  used on input line 65.
+(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
+) 
 AED: lastpage setting LastPage
 File: pic/HSIN_logo.pdf Graphic file (type pdf)
 <use pic/HSIN_logo.pdf>
 Package pdftex.def Info: pic/HSIN_logo.pdf  used on input line 18.
 (pdftex.def)             Requested size: 19.37592pt x 19.91684pt.
-[4] (./zadaci.aux)
+[4 <./pic/skcia3.png>] (./zadaci.aux)
 Package rerunfilecheck Info: File `zadaci.out' has not changed.
 (rerunfilecheck)             Checksum: ADAD8F536AEC3A4583A0C5301A917F9D;198.
  ) 
 Here is how much of TeX's memory you used:
- 15589 strings out of 478287
- 264014 string characters out of 5849289
+ 15598 strings out of 478287
+ 264453 string characters out of 5849289
  611631 words of memory out of 5000000
- 33402 multiletter control sequences out of 15000+600000
- 523963 words of font info for 105 fonts, out of 8000000 for 9000
+ 33414 multiletter control sequences out of 15000+600000
+ 523880 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,77p,1003b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -741,10 +745,10 @@ ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
 lic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on zadaci.pdf (5 pages, 251116 bytes).
+Output written on zadaci.pdf (5 pages, 307860 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 184 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  9 named destinations out of 1000 (max. 500000)
- 35375 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 35380 words of extra memory for PDF output out of 35830 (max. 10000000)
 
